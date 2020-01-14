@@ -6,11 +6,12 @@ public class Main {
     public static void main(String[] args) {
         // TODO (2): Declare three variable a, b, and m. Initialize with the values 900, 1000 and 0 respectively.
 
-
         // TODO (3): Create a String variable r, it should contain the output message  to be printed. you can be creative.
             // "The best option of AA and BB is MM
-        // TODO (4): Use max() method to obtain the maximum of the two salary value and store in m.
+
+        // TODO (4): Use max() method to obtain the maximum of the two salary value and store it in m.
 
         // TODO (5): Print the results.
+
      }
 }
