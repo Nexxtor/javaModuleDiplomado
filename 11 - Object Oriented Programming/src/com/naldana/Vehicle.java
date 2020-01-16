@@ -9,11 +9,6 @@ public class Vehicle {
         quantityWheel = 0;
         maxSpeed = 0;
     }
-    // TODO: You can write different version of a method but you need change the arguments quantity or types
-    public Vehicle(int quantityWheel, int maxSpeed) {
-        this.quantityWheel = quantityWheel;
-        this.maxSpeed = maxSpeed;
-    }
 
     public int getQuantityWheel() {
         return quantityWheel;
