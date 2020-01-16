@@ -11,4 +11,8 @@ public class Tablet extends Computer {
     double getScreenSize() {
         return screenSize;
     }
+
+    public static void whatIsIt() {
+        System.out.println( "it is a Tablet");
+    }
 }

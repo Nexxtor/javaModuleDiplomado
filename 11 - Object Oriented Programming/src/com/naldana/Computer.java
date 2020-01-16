@@ -15,4 +15,8 @@ public class Computer {
     public double getCpuSpeed() {
         return cpuSpeed;
     }
+
+    public static void whatIsIt() {
+        System.out.println( "it is a PC");
+    }
 }
