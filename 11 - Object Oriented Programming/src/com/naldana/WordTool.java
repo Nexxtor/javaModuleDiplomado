@@ -4,6 +4,12 @@ public class WordTool {
 
     WordTool() {}
 
+    /**
+     *
+     * @param s Original text.
+     * @param withSpaces boolean parameter to set if it is desired to count whitespaces. True to count, false to ignore.
+     * @return An integer with th symbol count of the String.
+     */
     public int symbolCount ( String s, boolean withSpaces ) {
         int count = 0;  // variable to count symbols
 
