@@ -1,5 +1,7 @@
 package com.deushdezt.models;
 
+import com.deushdezt.exeptions.CodeFormatException;
+
 public class Patient extends Person {
     private String insuranceCode;
 
@@ -15,13 +17,13 @@ public class Patient extends Person {
         return insuranceCode;
     }
 
-    public void setInsuranceCode(String insuranceCode) throws Exception {
+    public void setInsuranceCode(String insuranceCode) throws CodeFormatException {
         String insuranceCodePattern = "^S[0-9]{3}-[0-9]{3}$";
 
         if (insuranceCode.matches(insuranceCodePattern)) {
             this.insuranceCode = insuranceCode;
         } else {
-            throw new Exception("The code doesn't match with the format");
+            throw new CodeFormatException("The code doesn't match with the format");
         }
     }
 

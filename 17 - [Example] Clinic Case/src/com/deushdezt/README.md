@@ -35,8 +35,8 @@ Dentro del paquete "models" realice lo siguiente:
     
     Por último sobreescriba el método toString y concatene al resultado del método del padre, los nuevos atributos.
     
-* Por último, cree una clase Medic, la cual, de igual forma, heredará de la clase Person, y contendrá los siguientes atributos:
-    * MedicCode -> String
+* Por último, cree una clase Doctor, la cual, de igual forma, heredará de la clase Person, y contendrá los siguientes atributos:
+    * DoctorCode -> String
     * Specialty -> String
     
     El código médico posee el siguiente formato "MXXX".
