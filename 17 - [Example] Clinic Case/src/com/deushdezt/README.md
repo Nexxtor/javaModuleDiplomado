@@ -1,7 +1,16 @@
 # Indicaciones
+
+## Contexto
+
+Su jefe ha visto en usted un alto pontencial para aportar valor a su empresa; el ha iniciado un nuevo proyecto 
+y desea poner a disposición de todos los miembros de la empresa una clínica, para asegurar la salud y el bienestar 
+de todos sus empleados. Le ha solicitado a usted que cree la primera versión de un sistema para gestionar dicha clínica,
+el cual deberá llevar el control de los medicos asignados, lo pacientes que asisten y su historial clínico.k
+
+
 ## Estructura básica
 
-Cree dos paquetes con los nombres "controllers" y "models". Recuerde trabajar con los estándares y convenciones de nombres tanto de clases como de atributos.
+Cree dos paquetes **controllers** y **models**. Recuerde trabajar con los estándares y convenciones de nombres tanto de clases como de atributos.
 
 ## Modelos
 Dentro del paquete "models" realice lo siguiente:
@@ -43,4 +52,4 @@ Dentro del paquete "models" realice lo siguiente:
     
     Los métodos implementados en la clase pasada, se deben incluir en esta de la misma forma.
     
-    **Observación**: Al momento de asignar los códigos tanto de Medic como de Patient, valide que el formato sea correcto. Sugerencia: Bascar la referencia de "Regex" en Java y su uso.
+    **Observación**: Al momento de asignar los códigos tanto de Medic como de Patient, valide que el formato sea correcto. Sugerencia: Buscar la referencia de "Regex" en Java y su uso.
