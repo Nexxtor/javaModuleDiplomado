@@ -1,5 +1,5 @@
 package com.deushdezt;
 
-public interface Flyable {
+public interface  Flyable {
     void fly();
 }

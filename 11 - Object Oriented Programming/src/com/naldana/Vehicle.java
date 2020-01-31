@@ -3,6 +3,8 @@ package com.naldana;
 public class Vehicle {
     int quantityWheel;
     int maxSpeed;
+    int doors;
+
 
     // TODO: A method white the same nam of the class it's call Constructor
     public Vehicle() {
@@ -10,6 +12,8 @@ public class Vehicle {
         maxSpeed = 0;
     }
 
+    public void setDoors(int doors) { this.doors = doors;}
+    public int getDoors() { return doors;}
     public int getQuantityWheel() {
         return quantityWheel;
     }
