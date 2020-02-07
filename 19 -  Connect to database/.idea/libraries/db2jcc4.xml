@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="db2jcc4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/jdbc_sqlj/db2_db2driver_for_jdbc_sqlj/db2jcc4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jdbc_sqlj/db2_db2driver_for_jdbc_sqlj/sqlj4.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
